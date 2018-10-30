@@ -1,0 +1,40 @@
+					~ COMANDOS IMPORTANTES DO GIT ~
+
+0 - git --version : fala em qual versao o git do computador está
+0 - mkdir nome_diretorio : cria novo diretório no computador
+
+  		
+1 - git init : cria um diretório git no diretório que o terminal está
+
+2 - git config user.username "urielbra" : setta o username que está operando naquele diretório 
+2 - git config user.email "uriel.braga@enacom.com.br" : setta o email que está operando naquele diretório
+2 - git config user.name "Uriel" : setta o name que está operando naquele diretório
+
+3 - git status : retorna informações sobre diretório e branchs
+
+4 - git clone link : faz o download do repositório contido no link em questão
+
+5 - git remote add nome_rep nome_branch link : linka o diretório atual com o diretório remoto, para futuramente fazer novos 
+
+6 - git add nome_arquivo : adiciona o arquivo no pacote que será comittado
+6 - git add -A	         : adiciona todos os arquivos do diretório
+6 - git diff  : mostra todas as diferenças feitas no arquivo
+
+7 - git commit -m "Mensagem de commit" : faz o commit do pacote no diretório
+
+8 - git branch nome_branch : cria uma nova branch, não é recomendado se operar na master!
+
+9 - git checkout nome_branch : seleciona a branch criada
+
+
+10 - git push nome_rep nome_branch : coloca o arquivo em questão no Git.com (repositório remoto), se foi um diretório forkado,
+				   : o git entende como um novo upload do usuário que pode gerar um 					   :	pull request no arquivo original 
+
+11 - git pull nome_rep nome_branch : atualiza o diretório local e faz merge dos arquivos dele se necessário, em caso de modificações
+
+12 - git checkout branch_master
+12 - git merge nome_branch 	: faz o merge da branch atual com a master depois de fazer o pull
+
+13 - git branch -d nome_branch : deleta a branch criada pelo programador 			
+
+

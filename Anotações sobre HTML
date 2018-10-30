@@ -1,0 +1,62 @@
+						~HLTM~ 
+Todo navegador faz sucessivas requisições de dados e arquivos a um servidor, que são entregues para exibição se possível.
+
+URL: Unique Resource Locator => endereço da internet singular que faz todas as requisições necessárias para seu funcionamento.
+
+TAGS: marcadores no código que representam estruturas visuais e lógicas. Exemplo: <p> </p> <body> </html> <html>
+
+*Tag parágrafo: <p> Texto que está dentro do parágrafo </p>
+
+Tag de abertura:" <body> " essa também pode conter atribudos
+Elemento:	<body>TEXTO</body>
+Tag de Fechamento: </body>
+
+Tag de abertura + atributos : <img src ="foto.png"> (não pode conter espaço depois do igual)
+
+*Tag master: envolve todas as tags do arquivo e começa como <html> </html>
+
+*Tag <head> : contem as metas-informações=> titulos,descrição, icone etc 
+		<html> <head> <title> Nome da aba! </title> </head> </html>
+
+*Tag <head> : fica abaixo da head sempre e possui todo o resto do corpo do texto
+		<html> <body> <p> Qualquer texto </p> </body> </html>
+
+Coisas padrão do HTML : Cor preto, fundo branco, fonte TimesNewRoman etc.
+
+		
+						~CSS~ 
+Adicona um novo elemento chamado <style> </style> utlizados para se produzir um front end mais bonito e diferenciado
+
+
+
+COMANDO: background-color: #d2b48c; (Definição da cor de fundo em hexadecimal)
+COMANDO: margin-left: 20%;	    (Posicionamento das margens laterais)	
+COMANDO: margin-right: 20%;	
+COMANDO: border: 2px dotted black; (Adciona uma borda pontilhada com 2 pixels) 
+COMANDO: font-family: sans-serif; (Muda a fonte padrão de texto, sai do padrão TMN) 
+COMANDO: padding: 10px 10px 10px 10px; (Preenche as bordas do quadro na ordem CIMA-BAIXO-ESQUERDA-DIREITA )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
