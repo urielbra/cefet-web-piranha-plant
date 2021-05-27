@@ -1,0 +1,39 @@
+h1, h2 {
+    color: limegreen;       /* cor do texto: lima */
+     font-family: "Times New Roman", serif;
+
+        text-align: left;   /* left, right, justify */
+  }
+  h1{
+      font-size: 28px;     /*Define o tamanho do texto*/
+  }
+  h2{
+      font-size: 22px;
+  }
+
+  body{
+
+
+    font-family: "Arial", sans-serif;
+      font-size: 14px;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  q, blockquote{
+      font-style: italic;
+  }
+  #voce-sabia{
+      border: 3px solid limegreen;
+      padding: 10px;
+      background-image: url("../imagens/fundo.png");
+  }
+  p{
+  font-family: "Arial", sans-serif;
+  text-align: justify;
+  }
+  img{			/*Sobrescreve a tag img para que todas as imagens fiquem no padrao*/
+  border: 8px solid limegreen;
+  display: block;
+  margin: 0 auto;
+  
+  }

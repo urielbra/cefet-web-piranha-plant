@@ -1,57 +1,55 @@
+<!DOCTYPE html>
 <html>
 	
 <head>
 	<title>loja-sementes</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/styles.css"> </link>
+
 
 		<style>
-		titulo_verde {
-		  color: #32cd32;       /* cor do texto: lima */
-		   font-family: "Times New Roman", sans-serif;
-	 	  font-size: 28px;     /*Define o tamanho do texto*/
-		  text-align: left;   /* left, right, justify */
-		}
+			html, body{
+				min-height: 100%;
+			}
+			body{
+			/* faz o conteúdo da página começar a 10%
+				da largura lateralmente */
+			margin-left: 10%;
+			background-size: cover;
+			margin-right: 10%;
+			background-repeat: no-repeat ;
+			background-image: url(imagens/desenho-loucao.jpg); /* imagem de fundo para a página */
+			}
+			table{
+			/* border: 2px solid silver ; */
+			width: 600px;
+			text-align: center;
+			margin: 0 auto;
+			border-collapse: collapse;  /* tira espaço entre as bordas */
+			}
+			td,th {
+				border: 1px solid black;
+				padding: 5px;
+				font-size: 20px;
+				text-align:center;	
+			}	
+			th{
+				background-color: gray;
+				border-top: none !important;
+				color: white;
+				font-weight: 600;
+			}
+			td{
+				font-size: 16px;
+				font-weight: 300;
+			}
 		</style>
-
-		<titulo_verde>Loja de Sementes </titulo_verde>
-
-		<style>
-		body{
-
-
-		  /* faz o conteúdo da página começar a 10%
-		    da largura lateralmente */
-		  margin-left: 10%;
-		  margin-right: 10%;
-		  background-image: url(imagens/fundo.png); /* imagem de fundo para a página */
-		}
-		</style>
-
-		
 	</head>
 
 
 	<body>
-		<style>
-		table{
-		border: 2px solid silver ;
-		 
-  		border-collapse: collapse;  /* tira espaço entre as bordas */
-		
 
-		}
-
-		td,th {
-		  border: 1px solid silver;
-		  padding: 0px;
-		  text-align:center;
-		  white-space: pre-wrap;		
-			
-
-		}
-				
-		</style>
-		
-
+		<h1>Loja de Sementes </h1>
 		<!--Tabela, com título extenso, subtitulos em negrito, 3 por 4
 		th:header títulos da tabela
 		td:data  dados da tabela
@@ -61,39 +59,55 @@
 		<table align="center">
 
 			<thead>
-				<th colspan="4">Sementes </th>
-<!--Linha BASE-->  <tr> <th>Espécie</th> <th>Dificuldade  <br> de Germinacao </th> <th> Sementes <br> por Pacote </th> 
-										   <th> Preço <br> (mangos) </th> </tr>
+				<th style="border-bottom: none;" colspan="3">Sementes </th>
+<!--Linha BASE-->  <tr> 
+						<th>Espécie</th>
+						<th> Quantidade </th> 
+						<th> Preço </th> 
+					</tr>
 			</thead>
 
 		
 			<tbody>
-<!--Linha 2-->	<tr> <td> <em> Drosera dielsiana </em></td> <td>fácil </td> <td> 30 </td> <td> R$ 2,00 </td> </tr>
+<!--Linha 2-->	<tr> 
+					<td> <em> Drosera dielsiana </em></td>
+					<td> 30 </td>
+					<td> R$ 20,00 </td>
+				</tr>
 		
-<!--Linha 3-->  <tr> <td> <em> Sarracenia hibrido </em></td> <td>média <br> semear no inverno </td> <td> 10 </td> <td> R$ 3,00 </td> </tr>
+<!--Linha 3-->  <tr> 
+					<td> <em> Drosera venusta </em></td>
+					<td> 30 </td>
+					<td> R$ 20,00 </td>
+				</tr>
 
-<!--Linha 4-->  <tr> <td> <em> Drosera nidiformis </em> </td> <td>média </td> <td> 15 </td> <td> R$ 2,00 </td> </tr>
+<!--Linha 4-->  <tr> 
+					<td> <em> Sarracenia hibrido </em> </td>
+					<td> 10 </td>
+					<td> R$ 30,00 </td>
+				</tr>
+
+<!--Linha 5-->  <tr> 
+					<td> <em> Drosera nidiformis </em> </td>
+					<td> 15 </td>
+					<td> R$ 2,00 </td>
+				</tr>
 			</tbody>
 
 		
 		</table>
 
 		<p>
-		Caso queria fazer um pedido. envie um email para 
-		    <a href="mailto:custodio@plantascarnivoras.com.br">custodio@plantascarnivoras.com.br</a> <!--Envia email nessa string-->
-		.	
+		Caso queria fazer um pedido:
+		<ol>
+			<li>Envie um email para <a href="mailto:custodio@plantascarnivoras.com.br">custodio@plantascarnivoras.com.br</a> </li>
+			<li>Envie um email para <a href="tel:+5531998844555">(31) 998 844 555</a> para confirmar seu pedido </li>
+			<li>Aguarde o entregador </li>
+			<li>Faça o pagamento </li>
+		</ol>
 		</p>
 
-		<p>
-		Voltar para a 	
-		   <a href="plantas.html">página de plantas</a>
-		.
-		
-		</p>	
-
-
-
-
+		<p>Voltar para a <a href="index.html">página principal</a></p>	
 	</body>	
 
 

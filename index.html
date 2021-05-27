@@ -1,55 +1,28 @@
-
+<!DOCTYPE html>
 <html>
 
 
 
 	<head>
 		<title>pagina-plantas</title>
-
-		<style>
-		titulo_verde {
-		  color: #32cd32;       /* cor do texto: lima */
-		   font-family: "Times New Roman", sans-serif;
-	 	  font-size: 28px;     /*Define o tamanho do texto*/
-		  text-align: left;   /* left, right, justify */
-		}
-		</style>
-
-		<titulo_verde> Plantas Carnivoras </titulo_verde>
-
-		<style>
-		body{
-
-
-		  /* faz o conteúdo da página começar a 10%
-		    da largura lateralmente */
-		  margin-left: 10%;
-		  margin-right: 10%;
-		  background-image: url(imagens/fundo.png); /* imagem de fundo para a página */
-		}
-		</style>
+		<link rel="stylesheet" href="css/styles.css"> </link>
+		<link rel="icon" href="favicon.ico">
 
 		
 	</head>
 
 	<body>
-		
 
-		<style>
-		p{
-		font-family: "Arial", sans-serif;
-		
-		}
-		</style>
+		<h1> Plantas Carnívoras </h1>
 
 		<p align="justify">
-		<p>
-		As plantas carnívoras são espécies de vegetais que capturam, matam e digerem iunsetos ou outros pequenos animais, devido à 			presença de enzimas digestivas quem extraem compostos nitrogenados e assim como onte de nutrientes, dependem do nitrogênio 			presente nas proteínas dos animais.
-		</p>
-		</paragrafo_arial_justificado> 
+			<p>
+			As plantas carnívoras são espécies de vegetais que <strong>capturam, matam e digerem</strong> insetos ou outros pequenos animais, devido à presença de <strong>enzimas digestivas</strong> quem extraem compostos nitrogenados e assim como onte de nutrientes, dependem do nitrogênio 			presente nas proteínas dos animais.
+			</p>
+		</p> 
 
 		<p>
-		Em seu livro <strong> "Insectivorus Plants" </strong>, Charles Darrwin escreveu sobre o processo de alimentação das 			plantas.		
+		Em seu livro <q>Insectivorus Plants</q>, <mark> Charles Darwin</mark> escreveu sobre o processo de alimentação das plantas.		
 		</p>
 
 
@@ -64,24 +37,24 @@
 
 		<p>
 		Darwin explica também que estas plantas conseguem florescer em solos pobres por causa da
-
-			<q> <!-- CITAÇÃO EM LINHA-->
-			"absorption of animal matter from captured insects" (p.17)
-			
-			</q>,
+			<!-- CITAÇÃO EM LINHA-->
+			<q>absorption of animal matter from captured insects</q>(p.17),
  
 		ou seja, elas conseguem os
 		nutrientes necessários a partir da matéria animal capturada.
 		</p>
 
-		<p>
+		<p id="voce-sabia">
+		<strong>
+		Você sabia?
+		</strong>
 		Há mais de 500 espécies de plantas carnívoras distribuídas no mundo todo com exceção da
 		Antártida. São encontradas em diversas regiões desde áreas quentes e florestas tropicais
 		úmidas, e até mesmo nas tundras gélidas da Sibéria. Veja uma
-		
 		<a  href="https://en.wikipedia.org/wiki/List_of_carnivorous_plants" > <!-- Manda o usuário para outro link-->
-		lista extensa de espécies na Wikipedia.
+			lista extensa de espécies na Wikipedia.
 		</a>
+		</p>	
 		
 		<p>		
 		As plantas carnívoras utilizam se de várias armadilhas para atraírem e capturarem suas presas,
@@ -91,37 +64,18 @@
 
 		<ul> <!-- Faz a listagem de itens NÃO ORDENADOS para ORDENADOS USAR <ol> -->
 			<li>
-			<a href="#arm-jau">Armadilhas de Jaula </a>
+			<a href="#arm-jau">Armadilhas de "Jaula" </a>
 			</li>
 	
 			<li>
-			<a href="#arm-suc">Armadilhas de Sucção </a>
+			<a href="#arm-suc">Armadilhas de "Sucção" </a>
 			</li>
 			
 		</ul>
 
-		<p><titulo_verde id="arm-jau"> Armadilhas de Jaula </titulo_verde></p>
+		<p><h2 id="arm-jau"> Armadilhas de "Jaula" </h2></p>
 		
-
-		<style>
-		img{			/*Sobrescreve a tag img para que todas as imagens fiquem no padrao*/
-		border: 4px solid black;
-	
-		/*border-width: 100px 100px 80px 80px; */
-		
-		border-color: #32cd32;
-		text-align: left;
-		  /*padding: 4px 4px 4px 4px; */
-		}
-		</style>
-		
-		<img src="imagens/armadilha-jaula.gif"  >
-		<img src="imagens/armadilha-jaula-natal.gif">
-		
-
-
-
-
+			<img src="imagens/armadilha-jaula.jpg"  >
 	
 		<p>
 			 
@@ -130,24 +84,24 @@
 		aciona um mecanismo que imediatamente fecha as metades da folha, sendo abertas somente
 		após a digestão do animal. Ao contrário do que muitas pessoas pensam estas enzimas
 		proteolíticas são inofensivas à pele humana e aos animais de médio e grande porte. Esse tipo
-		de armadilha é encontrada na Dionéia <em> (Dionaea) </em>  que se alimenta principalmente de aranhas,  <!--Latim-->
+		de armadilha é encontrada na Dionéia <em>(Dionaea)</em>  que se alimenta principalmente de aranhas,  <!--Latim-->
 		moscas, largatas, grilos, lesmas, entre outros.
 		</p> 
 			
 	
-		<p><titulo_verde id="arm-suc"> Armadilhas de Sucção </titulo_verde></p> 
+		<p><h2 id="arm-suc"> Armadilhas de "Sucção" </h2></p> 
 		
-		<img src="imagens/armadilha-succao.gif" >
+		<img src="imagens/armadilha-succao.jpg" >
 
 		<p>
-		Este tipo de armadilha é encontrado em todas as espécies de <em> Utricularia </em>, que vivem submersas
+		Este tipo de armadilha é encontrado em todas as espécies de <em>Utricularia</em>, que vivem submersas
 		em água doce ou brejos. Possuem utrículos que se assemelham a pequenas bolsas, contendo
 		uma minúscula entrada cercada por gatilhos, e ao serem estimulados provocam a abertura
 		dessa entrada. Quando a entrada é aberta, é sugado para dentro tudo que estiver ao redor
 		incluindo a presa que estimulou o gatilho.
 		</p>
 
-		<titulo_verde>Crie sua própria planta carnívora</titulo_verde>
+		<h2>Crie sua própria planta carnívora</h2>
 		
 		<p>
 		Se você estiver interessado em comprar sementes, visite
