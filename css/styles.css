@@ -10,6 +10,10 @@ h1, h2 {
   h2{
       font-size: 22px;
   }
+  label{
+      font-style: italic; /* Para não usar o <em */
+      cursor: text;
+  }
 
   body{
 
